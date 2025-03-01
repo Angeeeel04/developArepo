@@ -1,42 +1,58 @@
 ﻿<!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
     <title>REDIRECCION DEVELOP A REPO</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Outfit:wght@100..900&display=swap');
-
-        body{
-            font-family: "Fira code";
-            background-color: #0A1A2A;
-            color: #F8F5EF;
-        }
-
-        #contenedor{
-            display: flex;
-            justify-content: space-between;
-            border: 2px solid white;
-            border-radius: 2em;
-            background-color: #1D2D44;
-            padding-left: 2.5em;
-            padding-bottom: 2.5em;
-            margin: 1em 3em 1em 3em;
-        }
-
-        #logo{
-            background-color: black;
-        }
-        
-    </style>
 </head>
+
 <body>
-    <div id="contenedor">
-        <div>
-            <h1 style="padding-top: 0.25em">GRACIAS POR AUTENTICARTE CON GITHUB</h1>
-            <span>Autenticación exitosa. Puedes cerrar esta pestaña y volver a <b>developArepo</b></span>
+    <div id="contenedorIndex">
+        <div id="portada">
+            <div style="margin: 10px;">
+                <h1 style="font-size: 4em;">DEVELOP A REPO</h1>
+            </div>
+
+            <div style="margin: 15px;">
+                <img src="./img/pagina_home.png" width="370em" draggable="false">
+            </div>
         </div>
     </div>
-    <center><span>develop A repo © 2025</span></center>
+
+    <div id="descripcion">
+        <div style="margin: 15px;">
+            <img src="./img/tecnologias.png" width="400em" draggable="false">
+        </div>
+
+        <div style="margin: 10px; width: fit-content;">
+            <h2 style="font-size: 2.5em;">DESCRIPCION</h2>
+            <p>
+                Una aplicación que permite a los usuarios explorar sus repositorios de GitHub y publicarlos para que
+                otros puedan comprarlos. Además, ofrece un espacio donde empresas y usuarios pueden publicar ofertas
+                para colaborar en la creación de repositorios según sus necesidades.</br></br>
+                Utiliza FlutterFlow para el frontend y Supabase para autenticación y base de datos, integrándose con la
+                API de GitHub para obtener
+                datos en tiempo real y gestionar la persistencia de sesión sin afectar a otros accesos.
+            </p>
+
+            </br></br> Prueba la app con tan solo un click en el botón. </br></br>
+
+            <button onclick="window.open('https://developarepo.flutterflow.app/', '_blank');"> <b>IR A LA APP</b>
+            </button>
+
+            <a href="https://developarepo.flutterflow.app/" target="_blank">
+
+            </a>
+        </div>
+    </div>
+    </div>
+
 </body>
+
+<footer>
+    <center><span>develop A repo © 2025</span></center>
+</footer>
+
 </html>
